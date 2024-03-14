@@ -630,21 +630,20 @@ nav {
   text-align: center;
 }
 
+.footer__content{
+  margin-left: -5rem;
+}
+
 .footer__grid {
   display: grid;
   gap: 1rem 2rem;
   margin-left: -20 rem;
 }
 
-.footer__content{
-  margin-left: -12rem;
-}
-
 .footer__content h4 {
   margin-bottom: 1rem;
   font-size: 1.2rem;
   font-weight: 500;
-  margin-left: -10 rem;
 }
 
 .footer__content p {
@@ -709,6 +708,7 @@ nav {
   color: var(--text-light);
   text-align: center;
 }
+
 
 @media (width > 540px) {
   .panel__grid {
